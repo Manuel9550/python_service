@@ -18,7 +18,7 @@ def handle_connected_client(conn):
     while True:
         # receive data from the client
         data = conn.recv(1024)
-
+      
         # variable to store the return message back to the client
         returnData = ""
 
@@ -26,7 +26,10 @@ def handle_connected_client(conn):
             # no data has been received, the client has closed the conection
             print("Client has closed the connection. Shutting down service")
             break
+        elif data.decode() == "test":
+            returnData = calculate_car_loans(10000, 10)
         else:
+            print("In else")
             JsonResult = ""
             InvalidJsonError = ""
             json_object = {}
