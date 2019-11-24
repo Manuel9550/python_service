@@ -2,7 +2,10 @@ import sys
 from python_service.app import run
 from python_service.client import runClient
 
+
+
 if __name__ == '__main__':
+
     if  len(sys.argv) == 3 :
 
         # check that a valid ip and port were given

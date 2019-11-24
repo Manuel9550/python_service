@@ -29,7 +29,7 @@ def handle_connected_client(conn):
         elif data.decode() == "test":
             returnData = calculate_car_loans(10000, 10)
         else:
-            print("In else")
+
             JsonResult = ""
             InvalidJsonError = ""
             json_object = {}
