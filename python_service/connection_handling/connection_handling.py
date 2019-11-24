@@ -74,6 +74,7 @@ def handle_connected_client(conn):
     #we are finished with this client connection, close it
     conn.close()
 
+
     
 # Check if the JSON object sent by the client is a proper request for the service
 def check_json_object(Json_object):

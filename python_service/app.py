@@ -33,8 +33,7 @@ def run():
        conn, addr = s.accept()      
        print('Got connection from', addr)
        #start_new_thread(handle_connected_client,(conn))
-       x = threading.Thread(target=handle_connected_client, args=(conn,))
-       x.start()
+       handle_connected_client(conn)
        
 
     # close the socket
