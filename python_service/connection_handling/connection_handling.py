@@ -4,6 +4,10 @@ import json
 import ipaddress
 from python_service.loan.loan import calculate_car_loans
 
+import signal
+import sys
+
+import errno
 
 # the constants we are expecting in the JSON object sent by the client
 JSON_HASH_METHOD = "method-name"
@@ -12,59 +16,77 @@ METHOD_NAME = "calculate_car_loans"
 METHOD_ARG_1_NAME = "principle_amount"
 METHOD_ARG_2_NAME = "interest_rate"
 
+
+
+
 # thread function that will take care of the connected client
 
 def handle_connected_client(conn):
-    while True:
-        # receive data from the client
-        data = conn.recv(1024)
-      
+    connection_open = True
+    Successfull_Connection_End = True
+    while connection_open:
+        print("another round")
         # variable to store the return message back to the client
         returnData = ""
+        data = None
+        # if a sigint was detected, return a false 
+        #if sigint_detected:
+         #   Successfull_Connection_End = False
+           # break
 
-        if not data:
-            # no data has been received, the client has closed the conection
-            print("Client has closed the connection. Shutting down service")
-            break
-        elif data.decode() == "test":
-            returnData = calculate_car_loans(10000, 10)
-        else:
+        # receive data from the client
+        try:
+            data = conn.recv(1024)
+        except (KeyboardInterrupt, SystemExit):
+            connection_open = False
+            Successfull_Connection_End = False
+            print("SIGINT detected on the server side, closing the connection")
+            returnData = "SIGINT detected on the server side, closing the connection"
 
-            JsonResult = ""
-            InvalidJsonError = ""
-            json_object = {}
-            JsonObject_Valid = True
-            try:
-                # the client has sent a message, check what it is
-                json_object= json.loads(data.decode())               
-            except:
-                InvalidJsonError = "Error: Invalid JSON Data"
-                JsonObject_Valid = False
-            
-            if JsonObject_Valid:
-                successful_conversion, JsonResult = check_json_object(json_object) 
-
-                if successful_conversion:
-                
-                    principle = float(JsonResult[METHOD_ARG_1_NAME])
-                    interest = float(JsonResult[METHOD_ARG_2_NAME])
-
-                    if principle <= 0:
-                        returnData = "Error: Principle Amount must be greater than 0"
-                    elif interest < 0:
-                        returnData = "Error: Interest amount cannot be less than 0"
-                    else:
-                        returnData = calculate_car_loans(principle, interest)
-                else:
-                    returnData = JsonResult
+        
+      
+       
+        if connection_open:
+            if not data:
+                # no data has been received, the client has closed the conection
+                print("Client has closed the connection. Shutting down service")
+                break
+            elif data.decode() == "test":
+                returnData = calculate_car_loans(10000, 10)
             else:
-                 returnData = InvalidJsonError 
 
-            
-           
+                JsonResult = ""
+                InvalidJsonError = ""
+                json_object = {}
+                JsonObject_Valid = True
+                try:
+                    # the client has sent a message, check what it is
+                    json_object= json.loads(data.decode())               
+                except:
+                    InvalidJsonError = "Error: Invalid JSON Data"
+                    JsonObject_Valid = False
 
+                if JsonObject_Valid:
+                    successful_conversion, JsonResult = check_json_object(json_object) 
 
+                    if successful_conversion:
+                    
+                        principle = float(JsonResult[METHOD_ARG_1_NAME])
+                        interest = float(JsonResult[METHOD_ARG_2_NAME])
+
+                        if principle <= 0:
+                            returnData = "Error: Principle Amount must be greater than 0"
+                        elif interest < 0:
+                            returnData = "Error: Interest amount cannot be less than 0"
+                        else:
+                            returnData = calculate_car_loans(principle, interest)
+                    else:
+                        returnData = JsonResult
+                else:
+                     returnData = InvalidJsonError 
+        
         # convert the return data into a proper JSON object
+        print("Sending: ", returnData)
         string_to_return = json.dumps(returnData)
 
         # send the return values back to the client
@@ -74,6 +96,7 @@ def handle_connected_client(conn):
     #we are finished with this client connection, close it
     conn.close()
 
+    return Successfull_Connection_End
 
     
 # Check if the JSON object sent by the client is a proper request for the service

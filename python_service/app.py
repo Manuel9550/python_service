@@ -27,13 +27,16 @@ def run():
     
     # a forever loop until we interrupt it or  
     # an error occurs 
-    while True: 
+
+    keep_open_connection = True
+
+    while keep_open_connection: 
     
        # Establish connection with client. 
        conn, addr = s.accept()      
        print('Got connection from', addr)
        #start_new_thread(handle_connected_client,(conn))
-       handle_connected_client(conn)
+       keep_open_connection = handle_connected_client(conn)
        
 
     # close the socket
