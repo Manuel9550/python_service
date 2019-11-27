@@ -29,10 +29,8 @@ def handle_connected_client(conn):
         # variable to store the return message back to the client
         returnData = ""
         data = None
-        # if a sigint was detected, return a false 
-        #if sigint_detected:
-         #   Successfull_Connection_End = False
-           # break
+       
+        error = False
 
         # receive data from the client
         try:
@@ -40,6 +38,7 @@ def handle_connected_client(conn):
         except (KeyboardInterrupt, SystemExit):
             connection_open = False
             Successfull_Connection_End = False
+            error = True
             print("SIGINT detected on the server side, closing the connection")
             returnData = "SIGINT detected on the server side, closing the connection"
 
@@ -49,10 +48,11 @@ def handle_connected_client(conn):
         if connection_open:
             if not data:
                 # no data has been received, the client has closed the conection
-                print("Client has closed the connection. Shutting down service")
+                print("Client has closed the connection.")
                 break
             elif data.decode() == "test":
                 returnData = calculate_car_loans(10000, 10)
+                error = False
             else:
 
                 JsonResult = ""
@@ -65,6 +65,7 @@ def handle_connected_client(conn):
                 except:
                     InvalidJsonError = "Error: Invalid JSON Data"
                     JsonObject_Valid = False
+                    error = True
 
                 if JsonObject_Valid:
                     successful_conversion, JsonResult = check_json_object(json_object) 
@@ -76,25 +77,37 @@ def handle_connected_client(conn):
 
                         if principle <= 0:
                             returnData = "Error: Principle Amount must be greater than 0"
+                            error = True
                         elif interest < 0:
                             returnData = "Error: Interest amount cannot be less than 0"
+                            error = True
                         else:
                             returnData = calculate_car_loans(principle, interest)
+                            error = True
                     else:
                         returnData = JsonResult
                 else:
                      returnData = InvalidJsonError 
         
+       # prepare the json message to send back to the requester
+        results = {
+            "error": error,
+            "response" : {}
+        }
+
+        if error:
+            results["response"]["message"] = returnData
+        else:
+            results["response"] = returnData
+
         # convert the return data into a proper JSON object
-        print("Sending: ", returnData)
-        string_to_return = json.dumps(returnData)
+        print("Sending: ", json.dumps(results))
+        
 
         # send the return values back to the client
-        conn.sendall(string_to_return.encode())
+        conn.sendall(json.dumps(results).encode())
 
-
-    #we are finished with this client connection, close it
-    conn.close()
+  
 
     return Successfull_Connection_End
 
