@@ -18,7 +18,7 @@ def run():
 
 
 
-   logging.basicConfig(filename='python_service\\logfile.log',level=logging.DEBUG,format='%(asctime)s:%(levelname)s:%(message)s  ',datefmt='%Y-%m-%d %H:%M:%S')
+   logging.basicConfig(filename='python_service\\logfile.log',level=logging.DEBUG,format='%(levelname).4s:[%(asctime)s.%(msecs)03d]: %(message)s  ',datefmt='%Y-%m-%dT%H:%M:%S')
    logging.info("Started the application")
    signal.signal(signal.SIGINT, signal_handler)
     

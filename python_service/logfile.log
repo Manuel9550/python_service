@@ -64,3 +64,47 @@
 2019-11-27 14:00:53:INFO:Client COnnected: Sigint Detected. Closing down main thread  
 2019-11-27 14:00:53:INFO:Shutting Down Service: Keyboard Interrupt detected  
 2019-11-27 14:00:53:INFO:Sending Result to client Fields: {|error:True||response:{'message': 'SIGINT detected on the server side, closing the connection'}| }  
+2019-11-27 14:07:25:INFO:Started the application  
+2019-11-27 14:07:25:INFO:Information: socket binded Fields: {|Ip Address:127.0.0.1||port:12345| }  
+2019-11-27 14:07:25:INFO:Information: socket is listening Fields: {|Ip Address:127.0.0.1||port:12345| }  
+2019-11-27 14:14:51:INFO:Client COnnected: Received Connection Fields: {|Address Received From:('127.0.0.1', 64347)| }  
+2019-11-27 14:14:51:INFO:Received Request:  Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "10000", "interest_rate": "4"}}| }  
+2019-11-27 14:14:51:INFO:Sending Result to client Fields: {|error:False||response:{'36_month_result': 295.24, '48_month_result': 225.79, '60_month_result': 184.17}| }  
+2019-11-27 14:16:21:INFO:Client COnnected: Sigint Detected. Closing down main thread  
+2019-11-27 14:16:23:INFO:Started the application  
+2019-11-27 14:16:23:INFO:Information: socket binded Fields: {|Ip Address:127.0.0.1||port:12345| }  
+2019-11-27 14:16:23:INFO:Information: socket is listening Fields: {|Ip Address:127.0.0.1||port:12345| }  
+2019-11-27 14:25:28:INFO:Client COnnected: Received Connection Fields: {|Address Received From:('10.192.21.131', 64876)| }  
+2019-11-27 14:43:59:INFO:Client COnnected: Received Connection Fields: {|Address Received From:('10.192.21.131', 64984)| }  
+INFO:2019-11-27 15:05:00:Started the application  
+INFO:2019-11-27 15:05:00:Information: socket binded Fields: {|Ip Address:127.0.0.1||port:12345| }  
+INFO:2019-11-27 15:05:00:Information: socket is listening Fields: {|Ip Address:127.0.0.1||port:12345| }  
+INFO:2019-11-27 15:55:37:Client COnnected: Sigint Detected. Closing down main thread  
+INFO:2019-11-27 15:58:55:Started the application  
+INFO:2019-11-27 15:58:55:Information: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:2019-11-27 15:58:55:Information: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:2019-11-27 16:07:04:Client COnnected: Sigint Detected. Closing down main thread  
+INFO:2019-11-27T16:07:06.f:Started the application  
+INFO:2019-11-27T16:07:06.f:Information: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:2019-11-27T16:07:06.f:Information: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:2019-11-27T16:11:02.f:Client COnnected: Sigint Detected. Closing down main thread  
+INFO:2019-11-27T16:36:50:Started the application  
+INFO:2019-11-27T16:36:50:Information: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:2019-11-27T16:36:50:Information: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:2019-11-27T16:36:52:Client COnnected: Sigint Detected. Closing down main thread  
+INFO:2019-11-27T16:37:04.2019-11-27:Started the application  
+INFO:2019-11-27T16:37:04.2019-11-27:Information: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:2019-11-27T16:37:04.2019-11-27:Information: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:2019-11-27T16:37:24.2019-11-27:Client COnnected: Sigint Detected. Closing down main thread  
+INFO:2019-11-27T16:40:07.456:Started the application  
+INFO:2019-11-27T16:40:07.457:Information: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:2019-11-27T16:40:07.458:Information: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:2019-11-27T16:40:33.465:Client COnnected: Sigint Detected. Closing down main thread  
+INFO:2019-11-27T16:42:07.201:Started the application  
+INFO:2019-11-27T16:42:07.202:socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:2019-11-27T16:42:07.203:socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:2019-11-27T16:42:23.208:Sigint Detected. Closing down main thread  
+INFO:[2019-11-27T16:42:39.739]: Started the application  
+INFO:[2019-11-27T16:42:39.740]: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-27T16:42:39.741]: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-27T16:42:57.747]: Sigint Detected. Closing down main thread  

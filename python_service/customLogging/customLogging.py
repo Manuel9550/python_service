@@ -12,26 +12,26 @@ def customlog(message, messageType, level = 2, fields = None):
     logMessage = ""
 
     if messageType == MESSAGE_TYPE_INFO:
-        logMessage += "Information: "
+        logMessage = ""
     elif messageType == MESSAGE_TYPE_ERROR:
-        logMessage += "Error Occured: " 
+        logMessage = ""
     elif messageType == MESSAGE_TYPE_RECEIVED_REQUEST:
-        logMessage += "Received Request: "
+      logMessage = ""
     elif messageType == MESSAGE_TYPE_CLIENT_CONNECTED:
-        logMessage += "Client COnnected: "
+        logMessage = ""
     elif messageType == MESSAGE_TYPE_SHUTTING_DOWN_SERVICE:
-        logMessage += "Shutting Down Service: "
+        logMessage = ""
     elif messageType == MESSAGE_TYPE_BAD_INPUT:
-        logMessage += "Bad Input received: "
+        logMessage = ""
 
     logMessage += message
     # check if there were any fields we should parse through
     if fields != None:
-        logMessage += " Fields:"
+        logMessage += "      | "
         logMessage += " {"
          # handle the fields passed in
         for key in fields.keys():
-            logMessage += "|" + str(key) + ":" + str(fields[key]) + "|"
+            logMessage += "[" + str(key) + " = " + str(fields[key]) + "]"
 
         logMessage += " }"
    
