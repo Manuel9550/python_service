@@ -1,0 +1,66 @@
+2019-11-27 11:52:41,335:INFO:Started the application
+2019-11-27 11:52:41,337:INFO:2019-11-27, 11:52:41 socket binded to 12345
+2019-11-27 11:52:41,338:INFO:2019-11-27, 11:52:41 socket is listening
+2019-11-27 11:53:17,385:INFO:2019-11-27, 11:53:17 Sigint Detected. Closing down main thread
+2019-11-27 11:57:24:INFO:Started the application
+2019-11-27 11:57:24:INFO:socket binded to 12345
+2019-11-27 11:57:24:INFO:socket is listening
+2019-11-27 11:58:42:INFO:Sigint Detected. Closing down main thread
+2019-11-27 11:59:03 :INFO:Started the application
+2019-11-27 11:59:03 :INFO:socket binded to 12345
+2019-11-27 11:59:03 :INFO:socket is listening
+2019-11-27 11:59:09 :INFO:Sigint Detected. Closing down main thread
+2019-11-27 12:12:43:INFO:Started the application
+2019-11-27 12:12:43:INFO:socket binded to 12345
+2019-11-27 12:12:43:INFO:socket is listening
+2019-11-27 13:05:25:INFO:Started the application  
+2019-11-27 13:10:30:INFO:Started the application  
+2019-11-27 13:11:20:INFO:Started the application  
+2019-11-27 13:11:40:INFO:Started the application  
+2019-11-27 13:13:32:INFO:Started the application  
+2019-11-27 13:13:32:INFO:Information: socket binded Feilds: {|Ip Address:127.0.0.1||port:12345| }  
+2019-11-27 13:13:32:DEBUG:Information: socket is listening  
+2019-11-27 13:13:52:DEBUG:Received Request: Sigint Detected. Closing down main thread  
+2019-11-27 13:44:30:INFO:Started the application  
+2019-11-27 13:44:30:INFO:Information: socket binded Feilds: {|Ip Address:127.0.0.1||port:12345| }  
+2019-11-27 13:44:30:INFO:Information: socket is listening Feilds: {|Ip Address:127.0.0.1||port:12345| }  
+2019-11-27 13:45:02:INFO:Client COnnected: Received Connection Feilds: {|Address Received From:('127.0.0.1', 64273)| }  
+2019-11-27 13:45:02:INFO:Received Request:  Feilds: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 13:45:02:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Feilds: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 13:45:08:INFO:Received Request:  Feilds: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 13:45:08:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Feilds: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 13:45:13:INFO:Received Request:  Feilds: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 13:45:13:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Feilds: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 13:45:18:INFO:Received Request:  Feilds: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 13:45:18:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Feilds: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 13:45:23:INFO:Received Request:  Feilds: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 13:45:23:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Feilds: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 13:59:30:INFO:Client COnnected: Sigint Detected. Closing down main thread  
+2019-11-27 13:59:35:INFO:Started the application  
+2019-11-27 13:59:35:INFO:Information: socket binded Fields: {|Ip Address:127.0.0.1||port:12345| }  
+2019-11-27 13:59:35:INFO:Information: socket is listening Fields: {|Ip Address:127.0.0.1||port:12345| }  
+2019-11-27 13:59:50:INFO:Client COnnected: Received Connection Fields: {|Address Received From:('127.0.0.1', 64305)| }  
+2019-11-27 13:59:50:INFO:Received Request:  Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 13:59:50:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 14:00:26:INFO:Started the application  
+2019-11-27 14:00:26:INFO:Information: socket binded Fields: {|Ip Address:127.0.0.1||port:12345| }  
+2019-11-27 14:00:26:INFO:Information: socket is listening Fields: {|Ip Address:127.0.0.1||port:12345| }  
+2019-11-27 14:00:28:INFO:Client COnnected: Received Connection Fields: {|Address Received From:('127.0.0.1', 64308)| }  
+2019-11-27 14:00:28:INFO:Received Request:  Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 14:00:28:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 14:00:28:INFO:Sending Result to client Fields: {|error:False||response:Error:  principle_amount is not present in the argument list as a valid float| }  
+2019-11-27 14:00:33:INFO:Received Request:  Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 14:00:33:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 14:00:33:INFO:Sending Result to client Fields: {|error:False||response:Error:  principle_amount is not present in the argument list as a valid float| }  
+2019-11-27 14:00:38:INFO:Received Request:  Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 14:00:38:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 14:00:38:INFO:Sending Result to client Fields: {|error:False||response:Error:  principle_amount is not present in the argument list as a valid float| }  
+2019-11-27 14:00:43:INFO:Received Request:  Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 14:00:43:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 14:00:43:INFO:Sending Result to client Fields: {|error:False||response:Error:  principle_amount is not present in the argument list as a valid float| }  
+2019-11-27 14:00:48:INFO:Received Request:  Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 14:00:48:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
+2019-11-27 14:00:48:INFO:Sending Result to client Fields: {|error:False||response:Error:  principle_amount is not present in the argument list as a valid float| }  
+2019-11-27 14:00:53:INFO:Client COnnected: Sigint Detected. Closing down main thread  
+2019-11-27 14:00:53:INFO:Shutting Down Service: Keyboard Interrupt detected  
+2019-11-27 14:00:53:INFO:Sending Result to client Fields: {|error:True||response:{'message': 'SIGINT detected on the server side, closing the connection'}| }  

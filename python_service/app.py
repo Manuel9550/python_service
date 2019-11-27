@@ -2,17 +2,24 @@ import socket
 import threading
 from python_service.loan.loan import calculate_car_loans
 from python_service.connection_handling.connection_handling import handle_connected_client
+import logging
+from python_service.customLogging.loggingConstants import MESSAGE_TYPE_INFO,LOGLEVEL_INFO, MESSAGE_TYPE_CLIENT_CONNECTED, MESSAGE_TYPE_SHUTTING_DOWN_SERVICE
+from python_service.customLogging.customLogging import customlog
 
 
 import signal
 import sys
 def signal_handler(sig, frame):
-        print('Sigint Detected. Closing down main thread')
+        customlog('Sigint Detected. Closing down main thread', 3)
         sys.exit(0)
 
 
 def run():
 
+
+
+   logging.basicConfig(filename='python_service\\logfile.log',level=logging.DEBUG,format='%(asctime)s:%(levelname)s:%(message)s  ',datefmt='%Y-%m-%d %H:%M:%S')
+   logging.info("Started the application")
    signal.signal(signal.SIGINT, signal_handler)
     
    #create the socket object we are going to be using to listen for connections
@@ -32,11 +39,11 @@ def run():
    # this makes the server listen to requests  
    # coming from other computers on the network 
    s.bind(('', port))         
-   print("socket binded to %s" %(port))
+   customlog("socket binded", MESSAGE_TYPE_INFO, LOGLEVEL_INFO, {"Ip Address":"127.0.0.1","port":port})
    
    # put the socket into listening mode. Putting in a queue of ten, in case we get lots of messages at once
    s.listen(10)      
-   print("socket is listening")            
+   customlog("socket is listening", MESSAGE_TYPE_INFO, LOGLEVEL_INFO, {"Ip Address":"127.0.0.1","port":port})         
    
       
 
@@ -50,11 +57,11 @@ def run():
       try:
          # Establish connection with client. 
          conn, addr = s.accept()      
-         print('Got connection from', addr)
+         customlog("Received Connection", MESSAGE_TYPE_CLIENT_CONNECTED, LOGLEVEL_INFO, {"Address Received From":addr})  
          #start_new_thread(handle_connected_client,(conn))
          keep_open_connection = handle_connected_client(conn)
       except KeyboardInterrupt:
-         print('Keyboard Interrupt detected. Closing down main thread')
+         customlog("Keyboard Interrupt detected", MESSAGE_TYPE_SHUTTING_DOWN_SERVICE, LOGLEVEL_INFO)
          break
       except TimeoutError:
          keep_open_connection = True
