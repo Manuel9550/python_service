@@ -9,15 +9,15 @@ import sys
 
 import errno
 
-from python_service.customLogging.loggingConstants import MESSAGE_TYPE_BAD_INPUT, MESSAGE_TYPE_SHUTTING_DOWN_SERVICE, LOGLEVEL_INFO, LOGLEVEL_ERROR,MESSAGE_TYPE_RECEIVED_REQUEST, MESSAGE_TYPE_SENDING_RESULTS
+from python_service.customLogging.loggingConstants import LOGLEVEL_INFO, LOGLEVEL_ERROR
 from python_service.customLogging.customLogging import customlog
 
 # the constants we are expecting in the JSON object sent by the client
-JSON_HASH_METHOD = "method-name"
+JSON_HASH_METHOD = "method"
 JSON_HASH_ARGS = "args"
-METHOD_NAME = "calculate_car_loans"
-METHOD_ARG_1_NAME = "principle_amount"
-METHOD_ARG_2_NAME = "interest_rate"
+METHOD_NAME = "calculateCarLoan"
+METHOD_ARG_1_NAME = "principleAmount"
+METHOD_ARG_2_NAME = "interestRate"
 
 
 
@@ -41,12 +41,13 @@ def handle_connected_client(conn):
             connection_open = False
             Successfull_Connection_End = False
             error = True
-            customlog("Keyboard Interrupt detected", MESSAGE_TYPE_SHUTTING_DOWN_SERVICE, LOGLEVEL_INFO)
+            customlog("Keyboard Interrupt detected", LOGLEVEL_INFO)
             returnData = "SIGINT detected on the server side, closing the connection"
 
         
       
-       
+        
+
         if connection_open:
             if not data:
                 # no data has been received, the client has closed the conection
@@ -63,11 +64,11 @@ def handle_connected_client(conn):
                 JsonObject_Valid = True
                 try:
                     # the client has sent a message, check what it is
-                    json_object= json.loads(data.decode())     
-                    customlog("", MESSAGE_TYPE_RECEIVED_REQUEST, LOGLEVEL_INFO, {"Input Received":json.dumps(json_object)})          
+                    json_object= json.loads(data.decode())          
+                    customlog("Received Request from client", LOGLEVEL_INFO, {"Input Received":data.decode()})  
                 except:
                     InvalidJsonError = "Error: Invalid JSON Data"
-                    customlog("Bad JSON Input", MESSAGE_TYPE_BAD_INPUT, LOGLEVEL_ERROR, {"Input Received":"data.decode()"})
+                    customlog("Bad JSON Input", LOGLEVEL_ERROR, {"Input Received":data.decode()})
                     JsonObject_Valid = False
                     error = True
 
@@ -81,11 +82,11 @@ def handle_connected_client(conn):
 
                         if principle <= 0:
                             returnData = "Error: Principle Amount must be greater than 0"
-                            customlog(returnData, MESSAGE_TYPE_BAD_INPUT, LOGLEVEL_ERROR, {"Input Received":json.dumps(json_object)})
+                            customlog(returnData, LOGLEVEL_ERROR, {"Input Received":json.dumps(json_object)})
                             error = True
                         elif interest < 0:
                             returnData = "Error: Interest amount cannot be less than 0"
-                            customlog(returnData, MESSAGE_TYPE_BAD_INPUT, LOGLEVEL_ERROR, {"Input Received":json.dumps(json_object)})
+                            customlog(returnData, LOGLEVEL_ERROR, {"Input Received":json.dumps(json_object)})
                             error = True
                         else:
 
@@ -112,7 +113,7 @@ def handle_connected_client(conn):
         
 
         # send the return values back to the client
-        customlog("Sending Result to client", MESSAGE_TYPE_SENDING_RESULTS, LOGLEVEL_INFO, results) 
+        customlog("Sending Result to client", LOGLEVEL_INFO, results) 
         conn.sendall(json.dumps(results).encode())
 
   
@@ -129,13 +130,13 @@ def check_json_object(Json_object):
         methodName = Json_object[JSON_HASH_METHOD]
     except:
         message = "Error: JSON object improperly formatted: Could not access the method-name of the JSON object received"
-        customlog(message, MESSAGE_TYPE_BAD_INPUT, LOGLEVEL_ERROR, {"Input Received":json.dumps(Json_object)})
+        customlog(message, LOGLEVEL_ERROR, {"Input Received":json.dumps(Json_object)})
         return (False, message)
 
     # check that the method name matches the name of the method of the service
     if methodName != METHOD_NAME:
         message = f"Error: Method name received did not match a method this service provides. Must be named: {METHOD_NAME}"
-        customlog(message, MESSAGE_TYPE_BAD_INPUT, LOGLEVEL_ERROR, {"Input Received":json.dumps(Json_object)})
+        customlog(message, LOGLEVEL_ERROR, {"Input Received":json.dumps(Json_object)})
         return (False, message)
 
     # check that we can access the method arguments
@@ -143,7 +144,7 @@ def check_json_object(Json_object):
         args = Json_object[JSON_HASH_ARGS]
     except:
         message = f"Error:Method arguments could not be found. Make sure you have a dictionary of arguments called {JSON_HASH_ARGS}at the top level of your json object"
-        customlog(message, MESSAGE_TYPE_BAD_INPUT, LOGLEVEL_ERROR, {"Input Received":json.dumps(Json_object)})
+        customlog(message,LOGLEVEL_ERROR, {"Input Received":json.dumps(Json_object)})
         return (False, message)
 
     #check that the arguments dictionary contains the proper arguments 
@@ -151,14 +152,14 @@ def check_json_object(Json_object):
         _ = float(args[METHOD_ARG_1_NAME])
     except:
         message = f"Error:  {METHOD_ARG_1_NAME} is not present in the argument list as a valid float"
-        customlog(message, MESSAGE_TYPE_BAD_INPUT, LOGLEVEL_ERROR, {"Input Received":json.dumps(Json_object)})
+        customlog(message, LOGLEVEL_ERROR, {"Input Received":json.dumps(Json_object)})
         return (False, message)
 
     try: 
         _ = float(args[METHOD_ARG_2_NAME])
     except:
         message = f"Error:{METHOD_ARG_2_NAME} is not present in the argument list as a valid float"
-        customlog(message, MESSAGE_TYPE_BAD_INPUT, LOGLEVEL_ERROR, {"Input Received":json.dumps(Json_object)})
+        customlog(message, LOGLEVEL_ERROR, {"Input Received":json.dumps(Json_object)})
         return (False, message)
 
     # if we reached this point, return True with the argument list

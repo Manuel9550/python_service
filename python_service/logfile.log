@@ -1,110 +1,28 @@
-2019-11-27 11:52:41,335:INFO:Started the application
-2019-11-27 11:52:41,337:INFO:2019-11-27, 11:52:41 socket binded to 12345
-2019-11-27 11:52:41,338:INFO:2019-11-27, 11:52:41 socket is listening
-2019-11-27 11:53:17,385:INFO:2019-11-27, 11:53:17 Sigint Detected. Closing down main thread
-2019-11-27 11:57:24:INFO:Started the application
-2019-11-27 11:57:24:INFO:socket binded to 12345
-2019-11-27 11:57:24:INFO:socket is listening
-2019-11-27 11:58:42:INFO:Sigint Detected. Closing down main thread
-2019-11-27 11:59:03 :INFO:Started the application
-2019-11-27 11:59:03 :INFO:socket binded to 12345
-2019-11-27 11:59:03 :INFO:socket is listening
-2019-11-27 11:59:09 :INFO:Sigint Detected. Closing down main thread
-2019-11-27 12:12:43:INFO:Started the application
-2019-11-27 12:12:43:INFO:socket binded to 12345
-2019-11-27 12:12:43:INFO:socket is listening
-2019-11-27 13:05:25:INFO:Started the application  
-2019-11-27 13:10:30:INFO:Started the application  
-2019-11-27 13:11:20:INFO:Started the application  
-2019-11-27 13:11:40:INFO:Started the application  
-2019-11-27 13:13:32:INFO:Started the application  
-2019-11-27 13:13:32:INFO:Information: socket binded Feilds: {|Ip Address:127.0.0.1||port:12345| }  
-2019-11-27 13:13:32:DEBUG:Information: socket is listening  
-2019-11-27 13:13:52:DEBUG:Received Request: Sigint Detected. Closing down main thread  
-2019-11-27 13:44:30:INFO:Started the application  
-2019-11-27 13:44:30:INFO:Information: socket binded Feilds: {|Ip Address:127.0.0.1||port:12345| }  
-2019-11-27 13:44:30:INFO:Information: socket is listening Feilds: {|Ip Address:127.0.0.1||port:12345| }  
-2019-11-27 13:45:02:INFO:Client COnnected: Received Connection Feilds: {|Address Received From:('127.0.0.1', 64273)| }  
-2019-11-27 13:45:02:INFO:Received Request:  Feilds: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 13:45:02:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Feilds: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 13:45:08:INFO:Received Request:  Feilds: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 13:45:08:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Feilds: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 13:45:13:INFO:Received Request:  Feilds: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 13:45:13:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Feilds: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 13:45:18:INFO:Received Request:  Feilds: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 13:45:18:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Feilds: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 13:45:23:INFO:Received Request:  Feilds: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 13:45:23:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Feilds: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 13:59:30:INFO:Client COnnected: Sigint Detected. Closing down main thread  
-2019-11-27 13:59:35:INFO:Started the application  
-2019-11-27 13:59:35:INFO:Information: socket binded Fields: {|Ip Address:127.0.0.1||port:12345| }  
-2019-11-27 13:59:35:INFO:Information: socket is listening Fields: {|Ip Address:127.0.0.1||port:12345| }  
-2019-11-27 13:59:50:INFO:Client COnnected: Received Connection Fields: {|Address Received From:('127.0.0.1', 64305)| }  
-2019-11-27 13:59:50:INFO:Received Request:  Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 13:59:50:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 14:00:26:INFO:Started the application  
-2019-11-27 14:00:26:INFO:Information: socket binded Fields: {|Ip Address:127.0.0.1||port:12345| }  
-2019-11-27 14:00:26:INFO:Information: socket is listening Fields: {|Ip Address:127.0.0.1||port:12345| }  
-2019-11-27 14:00:28:INFO:Client COnnected: Received Connection Fields: {|Address Received From:('127.0.0.1', 64308)| }  
-2019-11-27 14:00:28:INFO:Received Request:  Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 14:00:28:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 14:00:28:INFO:Sending Result to client Fields: {|error:False||response:Error:  principle_amount is not present in the argument list as a valid float| }  
-2019-11-27 14:00:33:INFO:Received Request:  Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 14:00:33:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 14:00:33:INFO:Sending Result to client Fields: {|error:False||response:Error:  principle_amount is not present in the argument list as a valid float| }  
-2019-11-27 14:00:38:INFO:Received Request:  Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 14:00:38:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 14:00:38:INFO:Sending Result to client Fields: {|error:False||response:Error:  principle_amount is not present in the argument list as a valid float| }  
-2019-11-27 14:00:43:INFO:Received Request:  Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 14:00:43:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 14:00:43:INFO:Sending Result to client Fields: {|error:False||response:Error:  principle_amount is not present in the argument list as a valid float| }  
-2019-11-27 14:00:48:INFO:Received Request:  Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 14:00:48:ERROR:Bad Input received: Error:  principle_amount is not present in the argument list as a valid float Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "adad", "interest_rate": "0"}}| }  
-2019-11-27 14:00:48:INFO:Sending Result to client Fields: {|error:False||response:Error:  principle_amount is not present in the argument list as a valid float| }  
-2019-11-27 14:00:53:INFO:Client COnnected: Sigint Detected. Closing down main thread  
-2019-11-27 14:00:53:INFO:Shutting Down Service: Keyboard Interrupt detected  
-2019-11-27 14:00:53:INFO:Sending Result to client Fields: {|error:True||response:{'message': 'SIGINT detected on the server side, closing the connection'}| }  
-2019-11-27 14:07:25:INFO:Started the application  
-2019-11-27 14:07:25:INFO:Information: socket binded Fields: {|Ip Address:127.0.0.1||port:12345| }  
-2019-11-27 14:07:25:INFO:Information: socket is listening Fields: {|Ip Address:127.0.0.1||port:12345| }  
-2019-11-27 14:14:51:INFO:Client COnnected: Received Connection Fields: {|Address Received From:('127.0.0.1', 64347)| }  
-2019-11-27 14:14:51:INFO:Received Request:  Fields: {|Input Received:{"method-name": "calculate_car_loans", "args": {"principle_amount": "10000", "interest_rate": "4"}}| }  
-2019-11-27 14:14:51:INFO:Sending Result to client Fields: {|error:False||response:{'36_month_result': 295.24, '48_month_result': 225.79, '60_month_result': 184.17}| }  
-2019-11-27 14:16:21:INFO:Client COnnected: Sigint Detected. Closing down main thread  
-2019-11-27 14:16:23:INFO:Started the application  
-2019-11-27 14:16:23:INFO:Information: socket binded Fields: {|Ip Address:127.0.0.1||port:12345| }  
-2019-11-27 14:16:23:INFO:Information: socket is listening Fields: {|Ip Address:127.0.0.1||port:12345| }  
-2019-11-27 14:25:28:INFO:Client COnnected: Received Connection Fields: {|Address Received From:('10.192.21.131', 64876)| }  
-2019-11-27 14:43:59:INFO:Client COnnected: Received Connection Fields: {|Address Received From:('10.192.21.131', 64984)| }  
-INFO:2019-11-27 15:05:00:Started the application  
-INFO:2019-11-27 15:05:00:Information: socket binded Fields: {|Ip Address:127.0.0.1||port:12345| }  
-INFO:2019-11-27 15:05:00:Information: socket is listening Fields: {|Ip Address:127.0.0.1||port:12345| }  
-INFO:2019-11-27 15:55:37:Client COnnected: Sigint Detected. Closing down main thread  
-INFO:2019-11-27 15:58:55:Started the application  
-INFO:2019-11-27 15:58:55:Information: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
-INFO:2019-11-27 15:58:55:Information: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
-INFO:2019-11-27 16:07:04:Client COnnected: Sigint Detected. Closing down main thread  
-INFO:2019-11-27T16:07:06.f:Started the application  
-INFO:2019-11-27T16:07:06.f:Information: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
-INFO:2019-11-27T16:07:06.f:Information: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
-INFO:2019-11-27T16:11:02.f:Client COnnected: Sigint Detected. Closing down main thread  
-INFO:2019-11-27T16:36:50:Started the application  
-INFO:2019-11-27T16:36:50:Information: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
-INFO:2019-11-27T16:36:50:Information: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
-INFO:2019-11-27T16:36:52:Client COnnected: Sigint Detected. Closing down main thread  
-INFO:2019-11-27T16:37:04.2019-11-27:Started the application  
-INFO:2019-11-27T16:37:04.2019-11-27:Information: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
-INFO:2019-11-27T16:37:04.2019-11-27:Information: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
-INFO:2019-11-27T16:37:24.2019-11-27:Client COnnected: Sigint Detected. Closing down main thread  
-INFO:2019-11-27T16:40:07.456:Started the application  
-INFO:2019-11-27T16:40:07.457:Information: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
-INFO:2019-11-27T16:40:07.458:Information: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
-INFO:2019-11-27T16:40:33.465:Client COnnected: Sigint Detected. Closing down main thread  
-INFO:2019-11-27T16:42:07.201:Started the application  
-INFO:2019-11-27T16:42:07.202:socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
-INFO:2019-11-27T16:42:07.203:socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
-INFO:2019-11-27T16:42:23.208:Sigint Detected. Closing down main thread  
-INFO:[2019-11-27T16:42:39.739]: Started the application  
-INFO:[2019-11-27T16:42:39.740]: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
-INFO:[2019-11-27T16:42:39.741]: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
-INFO:[2019-11-27T16:42:57.747]: Sigint Detected. Closing down main thread  
+INFO:[2019-11-28T11:39:01.524]: Started the application  
+INFO:[2019-11-28T11:39:01.527]: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-28T11:39:01.528]: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-28T11:40:12.439]: Received Connection      |  {[Address Received From = ('10.192.56.154', 52404)] }  
+INFO:[2019-11-28T11:49:03.445]: Received Connection      |  {[Address Received From = ('10.192.56.154', 52442)] }  
+INFO:[2019-11-28T11:49:58.680]: Received Connection      |  {[Address Received From = ('10.192.56.154', 52454)] }  
+INFO:[2019-11-28T11:52:13.497]: Received Connection      |  {[Address Received From = ('10.192.56.154', 52470)] }  
+WARN:[2019-11-28T11:57:33.106]: Sigint Detected. Closing down main thread  
+INFO:[2019-11-28T11:57:34.652]: Started the application  
+INFO:[2019-11-28T11:57:34.654]: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-28T11:57:34.654]: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-28T12:17:52.795]: Received Connection      |  {[Address Received From = ('10.192.56.154', 52830)] }  
+INFO:[2019-11-28T12:18:40.346]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-28T12:18:40.347]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+WARN:[2019-11-28T12:19:12.369]: Sigint Detected. Closing down main thread  
+INFO:[2019-11-28T12:19:13.549]: Started the application  
+INFO:[2019-11-28T12:19:13.550]: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-28T12:19:13.551]: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-28T12:19:25.037]: Received Connection      |  {[Address Received From = ('10.192.56.154', 52848)] }  
+INFO:[2019-11-28T12:19:41.387]: Received Connection      |  {[Address Received From = ('10.192.56.154', 52854)] }  
+INFO:[2019-11-28T12:26:07.242]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"10","principalAmount":"100"},"method":"calculateCarLoan"}] }  
+ERRO:[2019-11-28T12:26:07.243]: Error:  principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"args": {"interestRate": "10", "principalAmount": "100"}, "method": "calculateCarLoan"}] }  
+INFO:[2019-11-28T12:26:07.244]: Sending Result to client      |  {[error = False][response = Error:  principleAmount is not present in the argument list as a valid float] }  
+INFO:[2019-11-28T12:27:29.296]: Received Connection      |  {[Address Received From = ('10.192.56.154', 52895)] }  
+INFO:[2019-11-28T12:29:42.843]: Received Connection      |  {[Address Received From = ('10.192.56.154', 52914)] }  
+INFO:[2019-11-28T12:30:14.158]: Received Connection      |  {[Address Received From = ('10.192.56.154', 52925)] }  
+INFO:[2019-11-28T12:30:34.329]: Received Connection      |  {[Address Received From = ('10.192.56.154', 52936)] }  
+INFO:[2019-11-28T12:31:21.819]: Received Connection      |  {[Address Received From = ('10.192.56.154', 52949)] }  

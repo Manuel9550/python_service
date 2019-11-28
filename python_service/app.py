@@ -3,7 +3,7 @@ import threading
 from python_service.loan.loan import calculate_car_loans
 from python_service.connection_handling.connection_handling import handle_connected_client
 import logging
-from python_service.customLogging.loggingConstants import MESSAGE_TYPE_INFO,LOGLEVEL_INFO, MESSAGE_TYPE_CLIENT_CONNECTED, MESSAGE_TYPE_SHUTTING_DOWN_SERVICE
+from python_service.customLogging.loggingConstants import LOGLEVEL_INFO
 from python_service.customLogging.customLogging import customlog
 
 
@@ -39,11 +39,11 @@ def run():
    # this makes the server listen to requests  
    # coming from other computers on the network 
    s.bind(('', port))         
-   customlog("socket binded", MESSAGE_TYPE_INFO, LOGLEVEL_INFO, {"Ip Address":"127.0.0.1","port":port})
+   customlog("socket binded", LOGLEVEL_INFO, {"Ip Address":"127.0.0.1","port":port})
    
    # put the socket into listening mode. Putting in a queue of ten, in case we get lots of messages at once
    s.listen(10)      
-   customlog("socket is listening", MESSAGE_TYPE_INFO, LOGLEVEL_INFO, {"Ip Address":"127.0.0.1","port":port})         
+   customlog("socket is listening", LOGLEVEL_INFO, {"Ip Address":"127.0.0.1","port":port})         
    
       
 
@@ -57,11 +57,11 @@ def run():
       try:
          # Establish connection with client. 
          conn, addr = s.accept()      
-         customlog("Received Connection", MESSAGE_TYPE_CLIENT_CONNECTED, LOGLEVEL_INFO, {"Address Received From":addr})  
+         customlog("Received Connection", LOGLEVEL_INFO, {"Address Received From":addr})  
          #start_new_thread(handle_connected_client,(conn))
          keep_open_connection = handle_connected_client(conn)
       except KeyboardInterrupt:
-         customlog("Keyboard Interrupt detected", MESSAGE_TYPE_SHUTTING_DOWN_SERVICE, LOGLEVEL_INFO)
+         customlog("Keyboard Interrupt detected", LOGLEVEL_INFO)
          break
       except TimeoutError:
          keep_open_connection = True

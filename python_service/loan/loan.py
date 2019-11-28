@@ -26,9 +26,9 @@ def calculate_car_loans(principal_amount, interest_rate):
     month_result_60 = calculate_car_loan_by_month(principal_amount_rounded,interest_rate, 60)
 
     returnDict = {}
-    returnDict["36_month_result"] = month_result_36
-    returnDict["48_month_result"] = month_result_48
-    returnDict["60_month_result"] = month_result_60
+    returnDict["payment36Month"] = str(month_result_36)
+    returnDict["payment48Month"] = str(month_result_48)
+    returnDict["payment60Month"] = str(month_result_60)
 
     return returnDict
 
