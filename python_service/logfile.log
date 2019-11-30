@@ -26,3 +26,409 @@ INFO:[2019-11-28T12:29:42.843]: Received Connection      |  {[Address Received F
 INFO:[2019-11-28T12:30:14.158]: Received Connection      |  {[Address Received From = ('10.192.56.154', 52925)] }  
 INFO:[2019-11-28T12:30:34.329]: Received Connection      |  {[Address Received From = ('10.192.56.154', 52936)] }  
 INFO:[2019-11-28T12:31:21.819]: Received Connection      |  {[Address Received From = ('10.192.56.154', 52949)] }  
+WARN:[2019-11-28T12:36:46.904]: Sigint Detected. Closing down main thread  
+INFO:[2019-11-28T12:54:35.804]: Started the application  
+INFO:[2019-11-28T12:54:35.805]: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-28T12:54:35.805]: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+WARN:[2019-11-28T12:54:41.808]: Sigint Detected. Closing down main thread  
+INFO:[2019-11-29T15:51:42.335]: Started the application  
+INFO:[2019-11-29T15:51:42.343]: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-29T15:51:42.343]: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-29T16:14:20.542]: Received Connection      |  {[Address Received From = ('10.192.99.62', 53651)] }  
+INFO:[2019-11-29T16:17:42.165]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:17:42.166]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:26:38.778]: Received Connection      |  {[Address Received From = ('10.192.99.62', 53690)] }  
+INFO:[2019-11-29T16:26:50.494]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:26:50.495]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:26:56.547]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:26:56.548]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:27:02.579]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:27:02.580]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:27:08.621]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:27:08.622]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:27:14.512]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:27:14.514]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:28:41.636]: Received Connection      |  {[Address Received From = ('10.192.99.62', 53705)] }  
+INFO:[2019-11-29T16:29:10.897]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:29:10.898]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:29:16.855]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:29:16.856]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:29:32.144]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:29:32.145]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:29:38.236]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:29:38.237]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:29:43.053]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:29:43.055]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:29:44.375]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:29:44.376]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:29:49.602]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:29:49.603]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:29:50.316]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:29:50.317]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:29:52.282]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:29:52.283]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:29:55.506]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:29:55.507]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:29:56.182]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:29:56.183]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:30:01.347]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:30:01.348]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:30:01.485]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:30:01.486]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:30:02.215]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:30:02.216]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:30:07.340]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:30:07.341]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:30:07.476]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:30:07.477]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:30:08.230]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:30:08.231]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:30:13.454]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:30:13.456]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:30:14.276]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:30:14.277]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:30:20.323]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:30:20.325]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:30:23.526]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:30:23.527]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:30:28.663]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:30:28.664]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:30:33.818]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:30:33.819]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:30:38.952]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:30:38.954]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:30:44.169]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:30:44.170]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:30:49.433]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:30:49.435]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:30:54.640]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:30:54.642]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:37:04.936]: Received Connection      |  {[Address Received From = ('10.192.99.62', 53758)] }  
+INFO:[2019-11-29T16:37:07.764]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:37:07.765]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:37:10.331]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:37:10.332]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:37:13.809]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:37:13.810]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:37:17.188]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:37:17.189]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:37:19.028]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:37:19.029]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:37:19.866]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:37:19.868]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:37:24.974]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:37:24.975]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:37:25.831]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:37:25.832]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:37:31.006]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:37:31.007]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:37:31.826]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:37:31.828]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:37:36.128]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:37:36.128]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:37:37.853]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:37:37.853]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:37:41.241]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:37:41.242]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:37:43.311]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:37:43.312]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:37:48.521]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:37:48.522]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:43:40.091]: Received Connection      |  {[Address Received From = ('10.192.99.62', 53803)] }  
+INFO:[2019-11-29T16:43:44.383]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:43:44.383]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:43:50.108]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:43:50.110]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:43:50.343]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:43:50.344]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:43:56.113]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:43:56.114]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:43:56.345]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:43:56.346]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:02.156]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:02.157]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:02.347]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:02.348]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:02.541]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:02.542]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:08.173]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:08.174]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:08.367]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:08.368]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:13.455]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:13.456]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:14.142]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:14.143]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:18.606]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:18.607]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:20.124]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:20.124]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:23.739]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:23.740]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:25.282]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:25.283]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:28.852]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:28.853]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:30.394]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:30.395]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:33.988]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:33.989]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:35.520]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:35.521]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:39.113]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:39.115]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:40.635]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:40.636]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:44.237]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:44.238]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:45.770]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:45.771]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:49.338]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:49.340]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:50.846]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:50.847]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:54.482]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:54.483]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+INFO:[2019-11-29T16:44:59.765]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T16:44:59.766]: Sending Result to client      |  {[error = False][response = {'payment36Month': '470.05', 'payment48Month': '366.19', 'payment60Month': '304.15'}] }  
+WARN:[2019-11-29T17:06:26.826]: Sigint Detected. Closing down main thread  
+INFO:[2019-11-29T17:10:18.659]: Started the application  
+INFO:[2019-11-29T17:10:18.660]: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-29T17:10:18.661]: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-29T17:12:35.021]: Received Connection      |  {[Address Received From = ('127.0.0.1', 59289)] }  
+INFO:[2019-11-29T17:12:35.022]: Received Request from client      |  {[Input Received = {"method-name": "calculateCarLoan", "args": {"principleAmount": "10000", "interestRate": "100"}}] }  
+ERRO:[2019-11-29T17:12:35.023]: Error: JSON object improperly formatted: Could not access the method-name of the JSON object received      |  {[Input Received = {"method-name": "calculateCarLoan", "args": {"principleAmount": "10000", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:12:35.035]: Sending Result to client      |  {[error = False][response = Error: JSON object improperly formatted: Could not access the method-name of the JSON object received] }  
+INFO:[2019-11-29T17:12:41.023]: Received Request from client      |  {[Input Received = {"method-name": "calculateCarLoan", "args": {"principleAmount": "10000", "interestRate": "100"}}] }  
+ERRO:[2019-11-29T17:12:41.024]: Error: JSON object improperly formatted: Could not access the method-name of the JSON object received      |  {[Input Received = {"method-name": "calculateCarLoan", "args": {"principleAmount": "10000", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:12:41.026]: Sending Result to client      |  {[error = False][response = Error: JSON object improperly formatted: Could not access the method-name of the JSON object received] }  
+INFO:[2019-11-29T17:12:47.023]: Received Request from client      |  {[Input Received = {"method-name": "calculateCarLoan", "args": {"principleAmount": "10000", "interestRate": "100"}}] }  
+ERRO:[2019-11-29T17:12:47.025]: Error: JSON object improperly formatted: Could not access the method-name of the JSON object received      |  {[Input Received = {"method-name": "calculateCarLoan", "args": {"principleAmount": "10000", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:12:47.027]: Sending Result to client      |  {[error = False][response = Error: JSON object improperly formatted: Could not access the method-name of the JSON object received] }  
+INFO:[2019-11-29T17:14:04.898]: Started the application  
+INFO:[2019-11-29T17:14:04.899]: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-29T17:14:04.900]: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-29T17:14:21.981]: Received Connection      |  {[Address Received From = ('127.0.0.1', 59346)] }  
+INFO:[2019-11-29T17:14:21.982]: Received Request from client      |  {[Input Received = {"methodName": "calculateCarLoan", "args": {"principleAmount": "10000", "interestRate": "100"}}] }  
+ERRO:[2019-11-29T17:14:21.982]: Error: JSON object improperly formatted: Could not access the method-name of the JSON object received      |  {[Input Received = {"methodName": "calculateCarLoan", "args": {"principleAmount": "10000", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:14:21.994]: Sending Result to client      |  {[error = False][response = Error: JSON object improperly formatted: Could not access the method-name of the JSON object received] }  
+INFO:[2019-11-29T17:14:27.981]: Received Request from client      |  {[Input Received = {"methodName": "calculateCarLoan", "args": {"principleAmount": "10000", "interestRate": "100"}}] }  
+ERRO:[2019-11-29T17:14:27.982]: Error: JSON object improperly formatted: Could not access the method-name of the JSON object received      |  {[Input Received = {"methodName": "calculateCarLoan", "args": {"principleAmount": "10000", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:14:27.983]: Sending Result to client      |  {[error = False][response = Error: JSON object improperly formatted: Could not access the method-name of the JSON object received] }  
+INFO:[2019-11-29T17:14:50.728]: Received Connection      |  {[Address Received From = ('127.0.0.1', 59348)] }  
+INFO:[2019-11-29T17:14:50.729]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "10000", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:14:50.730]: Sending Result to client      |  {[error = False][response = {'payment36Month': '882.81', 'payment48Month': '851.6', 'payment60Month': '840.23'}] }  
+INFO:[2019-11-29T17:14:56.729]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "10000", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:14:56.730]: Sending Result to client      |  {[error = False][response = {'payment36Month': '882.81', 'payment48Month': '851.6', 'payment60Month': '840.23'}] }  
+INFO:[2019-11-29T17:15:02.731]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "10000", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:15:02.732]: Sending Result to client      |  {[error = False][response = {'payment36Month': '882.81', 'payment48Month': '851.6', 'payment60Month': '840.23'}] }  
+INFO:[2019-11-29T17:15:37.543]: Received Connection      |  {[Address Received From = ('127.0.0.1', 59353)] }  
+INFO:[2019-11-29T17:15:37.544]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "10000", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:15:37.546]: Sending Result to client      |  {[error = False][response = {'payment36Month': '882.81', 'payment48Month': '851.6', 'payment60Month': '840.23'}] }  
+INFO:[2019-11-29T17:15:43.544]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "10000", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:15:43.547]: Sending Result to client      |  {[error = False][response = {'payment36Month': '882.81', 'payment48Month': '851.6', 'payment60Month': '840.23'}] }  
+INFO:[2019-11-29T17:15:49.547]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "10000", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:15:49.549]: Sending Result to client      |  {[error = False][response = {'payment36Month': '882.81', 'payment48Month': '851.6', 'payment60Month': '840.23'}] }  
+WARN:[2019-11-29T17:16:10.538]: Sigint Detected. Closing down main thread  
+INFO:[2019-11-29T17:16:11.851]: Started the application  
+INFO:[2019-11-29T17:16:11.853]: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-29T17:16:11.853]: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-29T17:16:14.986]: Received Connection      |  {[Address Received From = ('127.0.0.1', 59358)] }  
+INFO:[2019-11-29T17:16:14.987]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "10000", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:16:14.989]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['882.81', '851.6', '840.23']}] }  
+INFO:[2019-11-29T17:16:20.988]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "10000", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:16:20.991]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['882.81', '851.6', '840.23']}] }  
+INFO:[2019-11-29T17:20:28.442]: Received Connection      |  {[Address Received From = ('10.192.99.62', 53934)] }  
+INFO:[2019-11-29T17:20:42.184]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:20:42.185]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:25:24.605]: Received Connection      |  {[Address Received From = ('10.192.99.62', 53952)] }  
+INFO:[2019-11-29T17:25:34.682]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:25:34.682]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:25:52.409]: Received Connection      |  {[Address Received From = ('10.192.99.62', 53964)] }  
+INFO:[2019-11-29T17:25:59.377]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:25:59.379]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:26:19.573]: Received Connection      |  {[Address Received From = ('10.192.99.62', 53979)] }  
+INFO:[2019-11-29T17:26:20.697]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:26:20.699]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:29:35.959]: Received Connection      |  {[Address Received From = ('10.192.99.62', 53994)] }  
+INFO:[2019-11-29T17:29:46.029]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:29:46.030]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:29:52.058]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:29:52.059]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:29:58.097]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:29:58.099]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:30:04.054]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:30:04.056]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:30:10.085]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:30:10.086]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:30:16.068]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:30:16.070]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:30:22.153]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:30:22.153]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:30:28.114]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:30:28.116]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:30:34.086]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:30:34.088]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:30:40.189]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:30:40.190]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:30:46.086]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:30:46.087]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:30:52.167]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:30:52.168]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:30:58.107]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:30:58.109]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:31:04.102]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:31:04.103]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:31:10.180]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:31:10.182]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:31:16.121]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:31:16.122]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:31:22.111]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:31:22.113]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:31:28.226]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:31:28.227]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:31:34.161]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:31:34.163]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:31:40.118]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:31:40.119]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+WARN:[2019-11-29T17:38:34.354]: Sigint Detected. Closing down main thread  
+INFO:[2019-11-29T17:47:49.457]: Started the application  
+INFO:[2019-11-29T17:47:49.458]: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-29T17:47:49.458]: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-29T17:47:55.780]: Received Connection      |  {[Address Received From = ('127.0.0.1', 59516)] }  
+INFO:[2019-11-29T17:47:55.781]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+ERRO:[2019-11-29T17:47:55.781]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:47:55.791]: Sending Result to client      |  {[error = False][response = principleAmount is not present in the argument list as a valid float] }  
+INFO:[2019-11-29T17:48:01.781]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+ERRO:[2019-11-29T17:48:01.782]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:48:01.783]: Sending Result to client      |  {[error = False][response = principleAmount is not present in the argument list as a valid float] }  
+INFO:[2019-11-29T17:48:07.781]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+ERRO:[2019-11-29T17:48:07.783]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:48:07.785]: Sending Result to client      |  {[error = False][response = principleAmount is not present in the argument list as a valid float] }  
+INFO:[2019-11-29T17:48:13.783]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+ERRO:[2019-11-29T17:48:13.785]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:48:13.787]: Sending Result to client      |  {[error = False][response = principleAmount is not present in the argument list as a valid float] }  
+INFO:[2019-11-29T17:48:19.784]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+ERRO:[2019-11-29T17:48:19.785]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:48:19.787]: Sending Result to client      |  {[error = False][response = principleAmount is not present in the argument list as a valid float] }  
+INFO:[2019-11-29T17:48:25.785]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+ERRO:[2019-11-29T17:48:25.787]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:48:25.789]: Sending Result to client      |  {[error = False][response = principleAmount is not present in the argument list as a valid float] }  
+INFO:[2019-11-29T17:48:31.786]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+ERRO:[2019-11-29T17:48:31.788]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:48:31.812]: Sending Result to client      |  {[error = False][response = principleAmount is not present in the argument list as a valid float] }  
+INFO:[2019-11-29T17:48:37.788]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+ERRO:[2019-11-29T17:48:37.789]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:48:37.791]: Sending Result to client      |  {[error = False][response = principleAmount is not present in the argument list as a valid float] }  
+INFO:[2019-11-29T17:48:43.788]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+ERRO:[2019-11-29T17:48:43.790]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:48:43.792]: Sending Result to client      |  {[error = False][response = principleAmount is not present in the argument list as a valid float] }  
+INFO:[2019-11-29T17:48:49.789]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+ERRO:[2019-11-29T17:48:49.790]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:48:49.819]: Sending Result to client      |  {[error = False][response = principleAmount is not present in the argument list as a valid float] }  
+INFO:[2019-11-29T17:50:11.994]: Started the application  
+INFO:[2019-11-29T17:50:11.995]: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-29T17:50:11.996]: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-29T17:50:15.104]: Received Connection      |  {[Address Received From = ('127.0.0.1', 59524)] }  
+INFO:[2019-11-29T17:50:15.105]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+ERRO:[2019-11-29T17:50:15.106]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:50:15.107]: Sending Result to client      |  {[error = False][response = principleAmount is not present in the argument list as a valid float] }  
+INFO:[2019-11-29T17:50:21.106]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+ERRO:[2019-11-29T17:50:21.108]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:50:21.110]: Sending Result to client      |  {[error = False][response = principleAmount is not present in the argument list as a valid float] }  
+WARN:[2019-11-29T17:50:26.229]: Sigint Detected. Closing down main thread  
+INFO:[2019-11-29T17:53:46.942]: Started the application  
+INFO:[2019-11-29T17:53:46.944]: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-29T17:53:46.945]: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-29T17:53:49.786]: Received Connection      |  {[Address Received From = ('127.0.0.1', 59539)] }  
+INFO:[2019-11-29T17:53:49.787]: Received Request from client      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+ERRO:[2019-11-29T17:53:49.787]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"method": "calculateCarLoan", "args": {"principleAmount": "1asdasdsadsa", "interestRate": "100"}}] }  
+INFO:[2019-11-29T17:53:49.796]: Sending Result to client      |  {[error = True][response = {'message': 'principleAmount is not present in the argument list as a valid float'}] }  
+WARN:[2019-11-29T17:53:59.049]: Sigint Detected. Closing down main thread  
+INFO:[2019-11-29T17:57:52.941]: Started the application  
+INFO:[2019-11-29T17:57:52.943]: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-29T17:57:52.943]: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-29T17:58:08.063]: Received Connection      |  {[Address Received From = ('10.192.99.62', 54140)] }  
+INFO:[2019-11-29T17:58:13.374]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:58:13.375]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:58:19.378]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:58:19.379]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T17:58:25.366]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T17:58:25.367]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T18:00:01.687]: Received Connection      |  {[Address Received From = ('10.192.99.62', 54154)] }  
+INFO:[2019-11-29T18:00:29.203]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"fsdfsd"},"method":"calculateCarLoan"}] }  
+ERRO:[2019-11-29T18:00:29.203]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"args": {"interestRate": "8", "principleAmount": "fsdfsd"}, "method": "calculateCarLoan"}] }  
+INFO:[2019-11-29T18:00:29.204]: Sending Result to client      |  {[error = True][response = {'message': 'principleAmount is not present in the argument list as a valid float'}] }  
+INFO:[2019-11-29T18:00:35.256]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"fsdfsd"},"method":"calculateCarLoan"}] }  
+ERRO:[2019-11-29T18:00:35.258]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"args": {"interestRate": "8", "principleAmount": "fsdfsd"}, "method": "calculateCarLoan"}] }  
+INFO:[2019-11-29T18:00:35.258]: Sending Result to client      |  {[error = True][response = {'message': 'principleAmount is not present in the argument list as a valid float'}] }  
+INFO:[2019-11-29T18:00:41.256]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"fsdfsd"},"method":"calculateCarLoan"}] }  
+ERRO:[2019-11-29T18:00:41.257]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"args": {"interestRate": "8", "principleAmount": "fsdfsd"}, "method": "calculateCarLoan"}] }  
+INFO:[2019-11-29T18:00:41.258]: Sending Result to client      |  {[error = True][response = {'message': 'principleAmount is not present in the argument list as a valid float'}] }  
+INFO:[2019-11-29T18:00:47.320]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"fsdfsd"},"method":"calculateCarLoan"}] }  
+ERRO:[2019-11-29T18:00:47.320]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"args": {"interestRate": "8", "principleAmount": "fsdfsd"}, "method": "calculateCarLoan"}] }  
+INFO:[2019-11-29T18:00:47.321]: Sending Result to client      |  {[error = True][response = {'message': 'principleAmount is not present in the argument list as a valid float'}] }  
+INFO:[2019-11-29T18:00:53.253]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"fsdfsd"},"method":"calculateCarLoan"}] }  
+ERRO:[2019-11-29T18:00:53.254]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"args": {"interestRate": "8", "principleAmount": "fsdfsd"}, "method": "calculateCarLoan"}] }  
+INFO:[2019-11-29T18:00:53.255]: Sending Result to client      |  {[error = True][response = {'message': 'principleAmount is not present in the argument list as a valid float'}] }  
+INFO:[2019-11-29T18:00:59.247]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"fsdfsd"},"method":"calculateCarLoan"}] }  
+ERRO:[2019-11-29T18:00:59.247]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"args": {"interestRate": "8", "principleAmount": "fsdfsd"}, "method": "calculateCarLoan"}] }  
+INFO:[2019-11-29T18:00:59.248]: Sending Result to client      |  {[error = True][response = {'message': 'principleAmount is not present in the argument list as a valid float'}] }  
+INFO:[2019-11-29T18:01:44.870]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T18:01:44.871]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T18:01:50.936]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T18:01:50.937]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T18:01:56.999]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T18:01:57.000]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T18:02:37.355]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmountzzzz":"15000"},"method":"calculateCarLoan"}] }  
+ERRO:[2019-11-29T18:02:37.356]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"args": {"interestRate": "8", "principleAmountzzzz": "15000"}, "method": "calculateCarLoan"}] }  
+INFO:[2019-11-29T18:02:37.357]: Sending Result to client      |  {[error = True][response = {'message': 'principleAmount is not present in the argument list as a valid float'}] }  
+INFO:[2019-11-29T18:02:43.370]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmountzzzz":"15000"},"method":"calculateCarLoan"}] }  
+ERRO:[2019-11-29T18:02:43.371]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"args": {"interestRate": "8", "principleAmountzzzz": "15000"}, "method": "calculateCarLoan"}] }  
+INFO:[2019-11-29T18:02:43.372]: Sending Result to client      |  {[error = True][response = {'message': 'principleAmount is not present in the argument list as a valid float'}] }  
+INFO:[2019-11-29T18:02:49.425]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmountzzzz":"15000"},"method":"calculateCarLoan"}] }  
+ERRO:[2019-11-29T18:02:49.425]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"args": {"interestRate": "8", "principleAmountzzzz": "15000"}, "method": "calculateCarLoan"}] }  
+INFO:[2019-11-29T18:02:49.426]: Sending Result to client      |  {[error = True][response = {'message': 'principleAmount is not present in the argument list as a valid float'}] }  
+INFO:[2019-11-29T18:02:55.455]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmountzzzz":"15000"},"method":"calculateCarLoan"}] }  
+ERRO:[2019-11-29T18:02:55.456]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"args": {"interestRate": "8", "principleAmountzzzz": "15000"}, "method": "calculateCarLoan"}] }  
+INFO:[2019-11-29T18:02:55.457]: Sending Result to client      |  {[error = True][response = {'message': 'principleAmount is not present in the argument list as a valid float'}] }  
+INFO:[2019-11-29T18:03:01.394]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmountzzzz":"15000"},"method":"calculateCarLoan"}] }  
+ERRO:[2019-11-29T18:03:01.395]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"args": {"interestRate": "8", "principleAmountzzzz": "15000"}, "method": "calculateCarLoan"}] }  
+INFO:[2019-11-29T18:03:01.396]: Sending Result to client      |  {[error = True][response = {'message': 'principleAmount is not present in the argument list as a valid float'}] }  
+INFO:[2019-11-29T18:03:07.392]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmountzzzz":"15000"},"method":"calculateCarLoan"}] }  
+ERRO:[2019-11-29T18:03:07.392]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"args": {"interestRate": "8", "principleAmountzzzz": "15000"}, "method": "calculateCarLoan"}] }  
+INFO:[2019-11-29T18:03:07.393]: Sending Result to client      |  {[error = True][response = {'message': 'principleAmount is not present in the argument list as a valid float'}] }  
+INFO:[2019-11-29T18:03:13.324]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmountzzzz":"15000"},"method":"calculateCarLoan"}] }  
+ERRO:[2019-11-29T18:03:13.324]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"args": {"interestRate": "8", "principleAmountzzzz": "15000"}, "method": "calculateCarLoan"}] }  
+INFO:[2019-11-29T18:03:13.325]: Sending Result to client      |  {[error = True][response = {'message': 'principleAmount is not present in the argument list as a valid float'}] }  
+INFO:[2019-11-29T18:03:19.421]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmountzzzz":"15000"},"method":"calculateCarLoan"}] }  
+ERRO:[2019-11-29T18:03:19.421]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"args": {"interestRate": "8", "principleAmountzzzz": "15000"}, "method": "calculateCarLoan"}] }  
+INFO:[2019-11-29T18:03:19.422]: Sending Result to client      |  {[error = True][response = {'message': 'principleAmount is not present in the argument list as a valid float'}] }  
+INFO:[2019-11-29T18:03:25.461]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmountzzzz":"15000"},"method":"calculateCarLoan"}] }  
+ERRO:[2019-11-29T18:03:25.462]: principleAmount is not present in the argument list as a valid float      |  {[Input Received = {"args": {"interestRate": "8", "principleAmountzzzz": "15000"}, "method": "calculateCarLoan"}] }  
+INFO:[2019-11-29T18:03:25.463]: Sending Result to client      |  {[error = True][response = {'message': 'principleAmount is not present in the argument list as a valid float'}] }  
+INFO:[2019-11-29T18:05:56.149]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T18:05:56.150]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T18:06:02.236]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T18:06:02.237]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T18:06:08.167]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T18:06:08.168]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T18:06:14.211]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T18:06:14.212]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T18:06:20.261]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T18:06:20.262]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T18:06:26.296]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T18:06:26.298]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T18:06:32.162]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T18:06:32.163]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+WARN:[2019-11-29T18:06:41.115]: Sigint Detected. Closing down main thread  
+INFO:[2019-11-29T18:06:41.117]: Keyboard Interrupt detected  
+INFO:[2019-11-29T18:06:41.145]: Sending Result to client      |  {[error = True][response = {'message': 'SIGINT detected on the server side, closing the connection'}] }  
+INFO:[2019-11-29T18:08:51.938]: Started the application  
+INFO:[2019-11-29T18:08:51.939]: socket binded      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-29T18:08:51.940]: socket is listening      |  {[Ip Address = 127.0.0.1][port = 12345] }  
+INFO:[2019-11-29T18:09:07.476]: Received Connection      |  {[Address Received From = ('10.192.99.62', 54230)] }  
+INFO:[2019-11-29T18:13:19.761]: Received Request from client      |  {[Input Received = {"args":{"interestRate":"8","principleAmount":"15000"},"method":"calculateCarLoan"}] }  
+INFO:[2019-11-29T18:13:19.762]: Sending Result to client      |  {[error = False][response = {'names': ['payment36Month', 'payment48Month', 'payment60Month'], 'values': ['470.05', '366.19', '304.15']}] }  
+INFO:[2019-11-29T18:50:00.830]: Received Connection      |  {[Address Received From = ('10.192.99.62', 54433)] }  
+WARN:[2019-11-29T19:01:04.732]: Sigint Detected. Closing down main thread  

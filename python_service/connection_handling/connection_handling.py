@@ -67,7 +67,7 @@ def handle_connected_client(conn):
                     json_object= json.loads(data.decode())          
                     customlog("Received Request from client", LOGLEVEL_INFO, {"Input Received":data.decode()})  
                 except:
-                    InvalidJsonError = "Error: Invalid JSON Data"
+                    InvalidJsonError = "Parsing messgage error on the service side"
                     customlog("Bad JSON Input", LOGLEVEL_ERROR, {"Input Received":data.decode()})
                     JsonObject_Valid = False
                     error = True
@@ -81,11 +81,11 @@ def handle_connected_client(conn):
                         interest = float(JsonResult[METHOD_ARG_2_NAME])
 
                         if principle <= 0:
-                            returnData = "Error: Principle Amount must be greater than 0"
+                            returnData = "Principle Amount must be greater than 0"
                             customlog(returnData, LOGLEVEL_ERROR, {"Input Received":json.dumps(json_object)})
                             error = True
                         elif interest < 0:
-                            returnData = "Error: Interest amount cannot be less than 0"
+                            returnData = "Interest amount cannot be less than 0"
                             customlog(returnData, LOGLEVEL_ERROR, {"Input Received":json.dumps(json_object)})
                             error = True
                         else:
@@ -94,8 +94,10 @@ def handle_connected_client(conn):
                             error = False
                     else:
                         returnData = JsonResult
+                        error = True
                 else:
-                     returnData = InvalidJsonError 
+                     returnData = InvalidJsonError
+                     error = True 
         
        # prepare the json message to send back to the requester
         results = {
@@ -104,6 +106,7 @@ def handle_connected_client(conn):
         }
 
         if error:
+            results["error"] = True
             results["response"]["message"] = returnData
         else:
             results["response"] = returnData
@@ -129,13 +132,13 @@ def check_json_object(Json_object):
     try:
         methodName = Json_object[JSON_HASH_METHOD]
     except:
-        message = "Error: JSON object improperly formatted: Could not access the method-name of the JSON object received"
+        message = "JSON object improperly formatted: Could not access the method-name of the JSON object received"
         customlog(message, LOGLEVEL_ERROR, {"Input Received":json.dumps(Json_object)})
         return (False, message)
 
     # check that the method name matches the name of the method of the service
     if methodName != METHOD_NAME:
-        message = f"Error: Method name received did not match a method this service provides. Must be named: {METHOD_NAME}"
+        message = f"Method name received did not match a method this service provides. Must be named: {METHOD_NAME}"
         customlog(message, LOGLEVEL_ERROR, {"Input Received":json.dumps(Json_object)})
         return (False, message)
 
@@ -143,22 +146,23 @@ def check_json_object(Json_object):
     try:
         args = Json_object[JSON_HASH_ARGS]
     except:
-        message = f"Error:Method arguments could not be found. Make sure you have a dictionary of arguments called {JSON_HASH_ARGS}at the top level of your json object"
-        customlog(message,LOGLEVEL_ERROR, {"Input Received":json.dumps(Json_object)})
+        message = "Problem on the service side parsing arguments."
+        logMessage = f"Method arguments could not be found. Make sure you have a dictionary of arguments called {JSON_HASH_ARGS}at the top level of your json object"
+        customlog(logMessage,LOGLEVEL_ERROR, {"Input Received":json.dumps(Json_object)})
         return (False, message)
 
     #check that the arguments dictionary contains the proper arguments 
     try: 
         _ = float(args[METHOD_ARG_1_NAME])
     except:
-        message = f"Error:  {METHOD_ARG_1_NAME} is not present in the argument list as a valid float"
+        message = f"{METHOD_ARG_1_NAME} is not present in the argument list as a valid float"
         customlog(message, LOGLEVEL_ERROR, {"Input Received":json.dumps(Json_object)})
         return (False, message)
 
     try: 
         _ = float(args[METHOD_ARG_2_NAME])
     except:
-        message = f"Error:{METHOD_ARG_2_NAME} is not present in the argument list as a valid float"
+        message = f"{METHOD_ARG_2_NAME} is not present in the argument list as a valid float"
         customlog(message, LOGLEVEL_ERROR, {"Input Received":json.dumps(Json_object)})
         return (False, message)
 
