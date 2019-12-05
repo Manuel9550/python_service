@@ -89,9 +89,12 @@ def handle_connected_client(conn):
                             customlog(returnData, LOGLEVEL_ERROR, {"Input Received":json.dumps(json_object)})
                             error = True
                         else:
-
-                            returnData = calculate_car_loans(principle, interest)
-                            error = False
+                            try:
+                                returnData = calculate_car_loans(principle, interest)
+                                error = False
+                            except:
+                                error = true
+                                returnData = "Result was too large"
                     else:
                         returnData = JsonResult
                         error = True
