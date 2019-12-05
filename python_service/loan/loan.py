@@ -1,3 +1,9 @@
+# loan.py
+# Manuel Poppe Richter
+# SOA A1
+# This file is for calculating the cat loan with the inputted paramaters
+
+
 ERROR_ZERO_MONTHS = "Number of Months must be greater than 0"
 
 

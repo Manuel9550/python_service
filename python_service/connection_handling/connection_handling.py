@@ -1,3 +1,8 @@
+# connection_handling.py
+# Manuel Poppe Richter
+# SOA A1
+# This handles the main workload of a client connecting to the service. Checks if their arguments are valid
+
 import socket   
 import threading
 import json
@@ -93,7 +98,7 @@ def handle_connected_client(conn):
                                 returnData = calculate_car_loans(principle, interest)
                                 error = False
                             except:
-                                error = true
+                                error = True
                                 returnData = "Result was too large"
                     else:
                         returnData = JsonResult
