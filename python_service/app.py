@@ -29,15 +29,10 @@ def run():
    # set timeout 2 second
    s.settimeout(2)
 
-   # reserve a port on your computer in our 
-   # case it is 12345 but it can be anything 
+
    port = 12345              
     
-   # Next bind to the port 
-   # we have not typed any ip in the ip field 
-   # instead we have inputted an empty string 
-   # this makes the server listen to requests  
-   # coming from other computers on the network 
+
    s.bind(('', port))         
    customlog("socket binded", LOGLEVEL_INFO, {"Ip Address":"127.0.0.1","port":port})
    
@@ -47,9 +42,6 @@ def run():
    
       
 
-   # a forever loop until we interrupt it or  
-   # an error occurs 
-
    keep_open_connection = True
 
    while keep_open_connection: 
@@ -58,7 +50,7 @@ def run():
          # Establish connection with client. 
          conn, addr = s.accept()      
          customlog("Received Connection", LOGLEVEL_INFO, {"Address Received From":addr})  
-         #start_new_thread(handle_connected_client,(conn))
+   
          keep_open_connection = handle_connected_client(conn)
       except KeyboardInterrupt:
          customlog("Keyboard Interrupt detected", LOGLEVEL_INFO)
